@@ -36,15 +36,15 @@ function programaImc (){
             }else if(imc >= 30 && imc <= 34.9){
                 res.style.display = 'flex'
                 res.style.backgroundColor = 'green'
-                resTexto.innerHTML = `Seu imc é ${imc} (Obesidade grau 1)`
+                resTexto.innerHTML = `Seu imc é ${imc} <br> (Obesidade grau 1)`
             }else if(imc >= 35 && imc <= 39.9){
                 res.style.display = 'flex'
                 res.style.backgroundColor = 'green'
-                resTexto.innerHTML = `Seu imc é ${imc} (Obesidade grau 2)`
+                resTexto.innerHTML = `Seu imc é ${imc} <br> (Obesidade grau 2)`
             }else{
                 res.style.display = 'flex'
                 res.style.backgroundColor = 'green'
-                resTexto.innerHTML = `Seu imc é ${imc} (Obesidade grau 3)`
+                resTexto.innerHTML = `Seu imc é ${imc} <br> (Obesidade grau 3)`
             }   
         }     
     })
